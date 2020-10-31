@@ -14,4 +14,3 @@ driver.get(link)
 
 for i in range(views):
 	time.sleep(Timer)
-	driver refresh()
