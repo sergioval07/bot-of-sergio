@@ -1,12 +1,17 @@
-from selenium import webdriver
-import time
-views = int(input('Number of views: '))
-views_time = float(input('Time for each view: '))
+import time;
+from selenium import webdriver;
 
-browser = webdriver.Chrome()
+#time refresh
+Timer = 3 #(3seconds)
 
-for i in rage(views):
-	browser.get(https://youtu.be/oOaP0hBbRJk)
-	time.sleep(view_time)
+#youtube link
+link = 'https://www.youtube.com/watch?v=oOaP0hBbRJk&feature=youtu.be'
 
-browser.close()
+#number
+views = 30
+
+driver.get(link)
+
+for i in range(views):
+	time.sleep(Timer)
+	driver refresh()
